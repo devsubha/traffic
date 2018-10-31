@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>login</title>
+<link rel="stylesheet" type="text/css" href="login.css"> 
+
+</head>
+<body>
+
+	<div class="loginbox">
+	<img src="defaultdp.png" class="defaultdp"><br>
+	<h1>Admin Login here</h1>
+	<form method="post" action="login.php">
+	<p>Username</p>
+	<input type="text" name="userid">
+	<p>Password</p>
+	<input type="password" name="pswrd"/><br>
+	<input type="submit" on="check(this.form)" values="login"/><br>
+	
+	
+	</form>
+	</div>
+	 <script language="javascript">
+            function check(form) { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd") {
+                    window.open('hompg2.html')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
+</body>
+</html>

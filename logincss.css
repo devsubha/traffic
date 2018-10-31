@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+body {
+	font-family: 'Roboto', sans-serif;
+	
+}
+.loginbox{
+	width: 30rem;
+	height: 20rem;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 10%;
+	left: 50%;
+	padding: 50px 10px;
+}
+.form-signin-heading {
+    font-weight: 300;
+    text-align: center;
+}
+
+.spacer {
+    border: none;
+    margin: 14px;
+}
+
+.glyphicon-user {
+    display: block;
+    font-size: 150px;
+    text-align: center;
+    margin: 0 auto;
+    color: #e9ecef;
+    
+}
+
+.btn-primary {
+    background-color: #294c86;
+}
+
+.btn-primary:hover {
+    background-color: #fd7e14;
+}

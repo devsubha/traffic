@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(cool-background.png);
+	/*background-size : cover;*/
+	max-height:auto;
+	max-width:auto;
+	background-position: center;
+	font-family: sans-serif;
+}
+.register{
+	width: 320px;
+	height: 610px;
+	background: #47561c;
+	color: #ced1c8;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 50px 30px;
+}
+.register input[type="submit"]
+{
+	 border: none;
+	 outline: none;
+	 height: 40px;
+	 background: #fb2525;
+	 color: #fff;
+	 font-size: 16px;
+	 border-radius: 10px;
+}
